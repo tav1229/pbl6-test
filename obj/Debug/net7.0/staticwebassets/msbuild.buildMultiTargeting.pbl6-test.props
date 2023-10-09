@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/pbl6-test.props" />
+</Project>

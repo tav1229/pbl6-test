@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vu/code/pbl6-test/pbl6-test.csproj": {}
+  },
+  "projects": {
+    "/home/vu/code/pbl6-test/pbl6-test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vu/code/pbl6-test/pbl6-test.csproj",
+        "projectName": "pbl6-test",
+        "projectPath": "/home/vu/code/pbl6-test/pbl6-test.csproj",
+        "packagesPath": "/home/vu/.nuget/packages/",
+        "outputPath": "/home/vu/code/pbl6-test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "azure.identity": {
+              "target": "Package",
+              "version": "[1.10.1, )"
+            },
+            "azure.security.keyvault.secrets": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
